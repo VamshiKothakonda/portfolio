@@ -1,14 +1,14 @@
 import React from "react";
 import {
   FaJs,
-  FaPython,
-  FaJava,
+  // FaPython,
+  // FaJava,
   FaReact,
   FaNodeJs,
   FaAws,
   FaDatabase,
   FaCubes,
-  FaProjectDiagram,
+  // FaProjectDiagram,
 } from "react-icons/fa"; // Import icons from react-icons
 
 const skills = [
@@ -17,11 +17,13 @@ const skills = [
     icon: <FaJs className="text-yellow-500" />,
     description: "Expert in ES6+ syntax and asynchronous programming.",
   },
+  // Uncomment if you want to add Python later
   // {
   //   name: "Python",
   //   icon: <FaPython className="text-blue-500" />,
   //   description: "Advanced in Python, used for web development and data analysis."
   // },
+  // Uncomment if you want to add Java later
   // {
   //   name: "Java",
   //   icon: <FaJava className="text-red-500" />,
@@ -54,6 +56,7 @@ const skills = [
     description:
       "Experienced in designing and deploying microservices architectures.",
   },
+  // Uncomment if you want to add Design Architecture later
   // {
   //   name: "Design Architecture",
   //   icon: <FaProjectDiagram className="text-teal-500" />,
