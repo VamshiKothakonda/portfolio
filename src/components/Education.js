@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
 const education = [
-  {
-    degree: "Post Graduation in Project Management",
-    institution: "George Brown College - Toronto, ON, Canada ",
-    dates: "May 2024 - Jan 2025 | CGPA - 3.60",
-    details:
-      "Relevant coursework: Sofware Development Life cycle, Scrum Master, Agile Project management, Product Development, Project management Simulation, Scope and Quality Management, Risk management, Organizational Behavior, Business Acumen and strategies",
-  },
+  // {
+  //   degree: "Post Graduation in Project Management",
+  //   institution: "George Brown College - Toronto, ON, Canada ",
+  //   dates: "May 2024 - Jan 2025 | CGPA - 3.60",
+  //   details:
+  //     "Relevant coursework: Sofware Development Life cycle, Scrum Master, Agile Project management, Product Development, Project management Simulation, Scope and Quality Management, Risk management, Organizational Behavior, Business Acumen and strategies",
+  // },
   {
     degree: "Post Graduation in CloudOperations",
     institution: "York University - Toronto, ON, Canada ",
@@ -16,9 +16,9 @@ const education = [
       "Relevant coursework: AWS, Azure, Web-development, SRE, CI/CD Pipelines, SDLC, CloudOps Tools and Techniques, Business Continuity in Cloud, Advanced Cloud computing Services, AI/ML & Deep Learning basics.",
   },
   {
-    degree: "Bachelors in Technology (B.Tech-Mech)",
+    degree: "Bachelors in Technology (B.Tech)",
     institution: "Jawaharlal Nehru Technological University - Hyderabad, India",
-    dates: "Aug 2012 - July 2016 | CGPA - 3.02 ",
+    dates: "Aug 2012 - May 2016 | CGPA - 3.02 ",
   },
 ];
 

@@ -44,12 +44,12 @@ const certificates = [
     details: "Academic and Technical Training Certification",
     link: "#",
   },
-  {
-    title: "Post-Graduation Degree in Project Management",
-    organization: "George Brown College",
-    details: "Academic and Technical Training Certification",
-    link: "#",
-  },
+  // {
+  //   // title: "Post-Graduation Degree in Project Management",
+  //   // organization: "George Brown College",
+  //   // details: "Academic and Technical Training Certification",
+  //   // link: "#",
+  // },
   // {
   //   title: "Architecting with Google Compute Engine",
   //   organization: "Coursera",

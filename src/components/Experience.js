@@ -3,6 +3,21 @@ import React, { useState } from "react";
 const ProfessionalExperience = () => {
   const experiences = [
     {
+      role: "Software Developer",
+      company: "RBC Toronto, ON CA",
+      dates: "Jul 2024 - Present",
+      technologies:
+        "ReactJS, NodeJS, ExpressJS, Bootstrap, MongoDB, AWS, GIT, JIRA, CI/CD Pipelines",
+      responsibilities: [
+        "Built dynamic, responsive SPAs using React.js, TypeScript, HTML5, and CSS3, improving load performance by 23% and engagement by 17%, while integrating Material-UI for consistent design.",
+        "Developed secure, scalable APIs with Node.js and optimized queries in MongoDB and PostgreSQL, reducing latency by 28% and ensuring seamless integration with distributed systems.",
+        "Implemented robust testing with Jest, React Testing Library, and NPM scripts, maintaining 85%+ coverage and improving release quality within Agile SDLC practices (code reviews, CI/CD pipelines, Git",
+        "Partnered with UX teams using Figma/Material-UI to implement accessible designs, ensuring WCAG 2.1 AA compliance and seamless cross-device experience.",
+        "Containerized and deployed apps via Docker/Kubernetes with automated pipelines (Jenkins, GitHub Actions), enhancing deployment speed by 31% and reducing downtime; exposure to capital markets workflows adds domain alignment.",
+      ],
+    },
+
+    {
       role: "Software Development Engineer (SDE)",
       company: "TCT Holidays and Technologies Private Limited",
       dates: "Apr 2021 - Aug 2023",
@@ -18,6 +33,7 @@ const ProfessionalExperience = () => {
         "Built and maintained robust debugging, unit testing, UAT support and integration tests using tools like Jest and React Testing Library, leading to 85%+ code coverage and early detection of regressions across critical workflows.",
       ],
     },
+
     {
       role: "Junior Software Developer",
       company: "TCT Holidays and Technologies Private Limited",
@@ -32,17 +48,6 @@ const ProfessionalExperience = () => {
         "Collaborated with the backend team to design and implement efficient database schemas in MongoDB and integrate third-party APIs.",
         "Optimized responsive design using Bootstrap, reducing layout inconsistencies across devices and improving site accessibility.",
         "Implemented dynamic features with JavaScript, enhancing user interactivity and contributing to a 15% increase in internal user engagement",
-      ],
-    },
-    {
-      role: "Engineer Trainee Level 3 Internship",
-      company: "CYIENT Limited - Hyderabad, India ",
-      dates: "Jan 2016 - Aug 2017",
-      technologies:
-        "NestJS, React Native, Redis, AWS, GIT, CI/CD Pipelines, PayPal API",
-      responsibilities: [
-        "Designed high-fidelity test component models for complex aerospace systems ensuring robust integration into live production environments using advanced simulation and modeling tools.",
-        "Worked cross-functionally with engineers, testers, and product leads to iterate on designs, resolve integration blockers, and implement process improvements that enhanced test cycle velocity and system safety compliance.",
       ],
     },
     // {
